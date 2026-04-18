@@ -11,7 +11,7 @@
 ## **🚀 Установка**
 
 **1.** Подготовьте проект и установите зависимости:
-```bash mkdir acme-client`
+`mkdir acme-client`
 `cd acme-client`
 `npm init -y`
 `npm install express fs-extra acme-client path`
@@ -20,7 +20,7 @@
 Создайте или скачайте файл index.js и вставьте туда предоставленный код.
 
 **3.** Запуск:
-`node index.js`
+```bashnode index.js`
 
 Панель будет доступна по адресу: http://localhost:3000
 
