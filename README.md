@@ -11,13 +11,13 @@
 ## **🚀 Установка**
 
 **1.** Подготовьте проект и установите зависимости:
-$`mkdir acme-client`
-$`cd acme-client`
-$`npm init -y`
-$`npm install express fs-extra acme-client path`
+`mkdir acme-client`
+`cd acme-client`
+`npm init -y`
+`npm install express fs-extra acme-client path`
 
 **2.** Создайте файл сервера:
-Создайте файл index.js и вставьте туда предоставленный код.
+Создайте или скачайте файл index.js и вставьте туда предоставленный код.
 
 **3.** Запуск:
 `node index.js`
@@ -41,7 +41,8 @@ $`npm install express fs-extra acme-client path`
 
 ## 📂 **Где искать сертификаты?**
 Все выпущенные файлы сохраняются в корневой папке проекта:
-- `./certs/имя_домена/имя_домена.crt`
+- ```bash
+- ./certs/имя_домена/имя_домена.crt`
 - `./certs/имя_домена/имя_домена.key`
 
 Так же вы можете скачать нажав на кнопку в интерфейсе.
