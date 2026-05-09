@@ -160,7 +160,6 @@ app.get("/", (req, res) => {
                   if (data.ok) {
                     log("УСПЕХ! Сертификаты выпущены.");
                     document.getElementById("dlZone").style.display = "block";
-                    // Обновляем ссылки на скачивание
                     document.getElementById("linkCrt").href = "/download/" + domain + "/" + domain + ".crt";
                     document.getElementById("linkKey").href = "/download/" + domain + "/" + domain + ".key";
                 } else {
